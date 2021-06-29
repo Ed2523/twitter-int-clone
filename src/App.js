@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <div className="main-container" >
-        <div className="home" ><h1 >Home</h1> <h1 id="log" onClick={log}>Log in</h1></div>
+        <div className="home" ><h1 >Welcome</h1> <h1 id="log" onClick={log}>Log in</h1></div>
         <CreateTweet userInput={userInput} setUserInput={setUserInput} tweets={tweets} setTweets={setTweets} />
         <TweetList userName={userName} defaultTweet={defaultTweet} tweets={tweets} setTweets={setTweets} />
       </div>
