@@ -1,0 +1,29 @@
+h2, h3{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+}
+.tweet-buttons-container{
+    min-height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.tweet-button{
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #1da1f2;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:0 0 0 1rem;
+}
+.delete{
+    background-color: rgba(255, 0, 55, 0.582);
+}
+.liked{
+    background-color: rgb(15, 218, 76);
+}
+.disliked{
+    background-color: rgb(218, 15, 15);
+}
